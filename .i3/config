@@ -16,7 +16,7 @@ set $mod Mod4
 #Always start programs
 
 #Wallpaper
-exec_always --no-startup-id feh --bg-center ~/Pictures/masaüstü/1471410683493.png
+exec_always --no-startup-id feh --bg-center ~/.i3/1471410683493.png
 
 #VPN
 #need to do it for openvpn
@@ -64,7 +64,7 @@ floating_modifier $mod
 bindsym $mod+Return exec urxvt 
 
 #lock the screen
-bindsym $mod+Shift+x exec  ~/Programs/i3scripts/i3fancylock.sh
+bindsym $mod+Shift+x exec  ~/.i3lockscript/i3fancylock.sh
 
 # kill focused window
 bindsym $mod+Shift+q kill
