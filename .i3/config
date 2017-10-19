@@ -16,7 +16,7 @@ set $mod Mod4
 #Always start programs
 
 #Wallpaper
-exec_always --no-startup-id feh --bg-center ~/.i3/1471410683493.png
+exec_always --no-startup-id feh --bg-center ~/.i3/currentWallpaper
 
 #VPN
 #need to do it for openvpn
