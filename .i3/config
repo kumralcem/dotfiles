@@ -64,7 +64,7 @@ floating_modifier $mod
 bindsym $mod+Return exec urxvt 
 
 #lock the screen
-bindsym $mod+Shift+x exec  ~/.i3lockscript/i3fancylock.sh
+bindsym $mod+Shift+x exec  ~/.i3/lockscript/i3fancylock.sh
 
 # kill focused window
 bindsym $mod+Shift+q kill
